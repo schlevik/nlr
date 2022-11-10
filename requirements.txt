@@ -1,0 +1,12 @@
+colorlog==5.0.1
+jsonnet==0.17.0
+numpy==1.18.5
+statsmodels==0.11.1
+tabulate==0.8.7
+tokenizers==0.10.3
+torch==1.8.0
+torchaudio==0.7.0a0+ac17b64
+torchvision==0.8.1
+tqdm==4.49.0
+transformers==4.6.1
+wandb==0.10.32

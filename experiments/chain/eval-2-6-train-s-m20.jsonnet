@@ -1,0 +1,16 @@
+local base_name = "roberta-s-m20";
+local run_name = "eval-c2-6" + base_name;
+{
+    model_name_or_path: "./models/"+base_name,
+    output_dir: "./models/"+run_name,
+    do_eval: true,
+    train_file: "data/train-guaranteed-dmin2-dmax6-realised-s1337-mi15-ma30-k1000.json",
+    validation_file: "data/eval-guaranteed-dmin2-dmax6-realised-s56-mi15-ma30-k100.json",
+    overwrite_cache: true,
+    max_seq_length: 384,
+    per_device_eval_batch_size: 32,
+    run_name: run_name,
+    evaluation_strategy: "epoch",
+    save_strategy: "no",
+
+}
