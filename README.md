@@ -48,4 +48,4 @@ in the main project directory.
 The script `comp_subj_verify_vampire.py` is used for generating SRel and SRelNeg fragments, and `generate.py` and `generate_all_all.py` are used to generate constructed S+/R problems, respectively. Refer to scripts for more details.
 
 ## Data and models
-You can get the data from [here](https://kant.cs.man.ac.uk/data/public/nlr/data.tar.gz) and the pretrained models from [here](https://kant.cs.man.ac.uk/data/public/nlr/models.tar.gz).
+You can get the data from [here](https://kant.cs.man.ac.uk/data/public/nlr/data.tar.gz) and the pretrained models from [here](https://kant.cs.man.ac.uk/data/public/nlr/models.tar.bz2).
