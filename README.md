@@ -1,6 +1,6 @@
 # NLR
 
-Code for the EMNLP 2022 paper "Can Transformers Reason in Fragments of Natural Language?".
+Code for the EMNLP 2022 paper ["Can Transformers Reason in Fragments of Natural Language?"](https://arxiv.org/pdf/2211.05417.pdf).
 
 ## Setup
 Setup the environment correspondingly, e.g.
